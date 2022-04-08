@@ -36,3 +36,4 @@ application.pid
 /arthas-output/
 /wordcut/other/genidf.txt
 #/outdated/
+/src/main/resources/application-db.yml

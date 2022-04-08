@@ -78,11 +78,31 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
         </dependency>
-        <!-- 自己加入到了本地repo        -->
+        <!-- iceblue 自己加入到了本地repo        -->
         <dependency>
             <groupId>e-iceblue</groupId>
             <artifactId>spire.doc</artifactId>
             <version>5.4.0</version>
+        </dependency>
+        <!--        POI         -->
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.13.1</version>
+        </dependency>
+        <!--        流式组件fluent-hc可以直接用，是对HttpClient的简单封装    -->
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>fluent-hc</artifactId>
+            <version>4.5.13</version>
         </dependency>
 
     </dependencies>

@@ -1,0 +1,13 @@
+server:
+  port: 8123
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: /home/logs/
+
+spring:
+  profiles:
+    include:
+      - db
+  application:
+    name: docx2word
